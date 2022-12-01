@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Gudea:400,700);
+html, body {
+    font-family: 'Gudea', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+
+a, a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover i { 
+    color: darkred;
+    text-decoration: none;
+}
+
+b {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
+p {
+    margin-top: 10px;
+}
+
+mark {
+    background-color: darkred;
+    color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 20px 0 10px 0;
+}
+
+h2 {
+    font-size: 26px; 
+    
+    margin: 20px 0 10px 0;
+}
+
+h3 {
+    font-size: 24px; 
+    margin: 20px 0 10px 0;
+}
+
+h4 {
+    font-size: 22px; 
+    margin: 20px 0 10px 0;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+
+h6 {
+    font-size: 18px;  
+    margin: 20px 0 10px 0;
+}
+
+blockquote {
+    border-left: #00FFB2 5px solid;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0 20px 25px;
+    padding: 10px;
+}
+
+ul {
+    margin: 10px 0 10px 40px;
+    list-style: disc;
+}
+
+ol {
+    margin: 10px 0 10px 40px;
+    list-style: decimal;
+}
+
+ul li, ol li {
+    margin-top: 5px;
+}
+
+dl {
+    margin: 10px 0 10px 0;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin: 0px 0 10px 40px;
+}
+
+code {
+    font-family: monospace;
+}
+
+pre {
+    font-family: monospace;
+    white-space: pre;
+    margin: 20px 0 10px 0;
+}
+
+/* Override Default Text Selection Colour */
+::selection {
+  background: darkred; /* WebKit/Blink Browsers */
+  color: #FFFFFF;
+}
+::-moz-selection {
+  background: darkred; /* Gecko Browsers */
+  color: #FFFFFF;
+}

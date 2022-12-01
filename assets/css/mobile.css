@@ -1,0 +1,67 @@
+/* Mobile Devices */
+@media only screen and (max-width: 773px) {
+    header#header {
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 10px 20px 20px 20px;
+    }
+
+    header#header h1 {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+    }
+
+    header#header nav.menu ul li {
+        float: left;
+    }
+    
+    header#header nav.menu ul li a {
+        padding: 5px;
+        float: left;
+        border-bottom: 2px #FFFFFF solid;
+        font-size: 0.7em;
+    }
+
+    main#main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        border-radius: 0;
+        clear: both;
+    }
+
+    input[type="submit"] {
+        margin-bottom: 20px;
+    }
+
+    input {
+        margin: 0;
+    }
+
+    label {
+        margin: 0;
+    }
+
+    select {
+        margin-top: 0;
+    }
+    
+    footer#footer {
+        display: none;
+    }
+
+    section#login {
+        padding: 20px;
+    }
+
+    section#login input {
+        margin-top: 20px;
+    }
+}

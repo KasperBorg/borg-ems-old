@@ -5,7 +5,7 @@
 class Database {
 	private $_connection;
 	private static $_instance; // The single instance
-	private $_host = "localhost";
+	private $_host = "borginventar.dk.mysql";
 	private $_username = "borginventar_dk";
 	private $_password = "QVHKwLBq";
 	private $_database = "borginventar_dk";
